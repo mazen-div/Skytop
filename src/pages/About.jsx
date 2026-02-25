@@ -11,6 +11,8 @@ import StarIcon from '@mui/icons-material/Star';
 
 import SEO from '../components/SEO';
 
+import aboutImg from '../assets/images/ph1.jpg';
+
 const About = () => {
     return (
         <Box sx={{ position: 'relative', overflow: 'hidden' }}>
@@ -47,7 +49,7 @@ const About = () => {
                     <Row className="align-items-center">
                         <Col lg={6} className="animate-fade-in">
                             <Box component="img"
-                                src="/src/assets/image1.png"
+                                src={aboutImg}
                                 alt="About SkyTop"
                                 sx={{ width: '100%', borderRadius: 4, boxShadow: '0 20px 40px rgba(0,0,0,0.1)' }}
                             />

@@ -17,6 +17,11 @@ import StarIcon from '@mui/icons-material/Star';
 import FlagSlider from '../components/FlagSlider';
 import SEO from '../components/SEO';
 
+// Hero Images
+import heroImg2 from '../assets/images/ph2.jpg';
+import sliderImg2 from '../assets/images/slider-02.jpg';
+import sliderImg3 from '../assets/images/slider-03.jpg';
+
 const Home = () => {
     return (
         <Box sx={{ position: 'relative', overflow: 'hidden' }}>
@@ -32,7 +37,7 @@ const Home = () => {
                     <Carousel.Item style={{ height: '90vh' }}>
                         <Box sx={{
                             height: '100%',
-                            backgroundImage: 'linear-gradient(rgba(0,51,102,0.6), rgba(0,51,102,0.6)), url("/src/assets/images/ph2.jpg")',
+                            backgroundImage: `linear-gradient(rgba(0,51,102,0.6), rgba(0,51,102,0.6)), url("${heroImg2}")`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             display: 'flex',
@@ -63,7 +68,7 @@ const Home = () => {
                     <Carousel.Item style={{ height: '90vh' }}>
                         <Box sx={{
                             height: '100%',
-                            backgroundImage: 'linear-gradient(rgba(0,51,102,0.6), rgba(0,51,102,0.6)), url("/src/assets/images/slider-02.jpg")',
+                            backgroundImage: `linear-gradient(rgba(0,51,102,0.6), rgba(0,51,102,0.6)), url("${sliderImg2}")`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             display: 'flex',
@@ -89,7 +94,7 @@ const Home = () => {
                     <Carousel.Item style={{ height: '90vh' }}>
                         <Box sx={{
                             height: '100%',
-                            backgroundImage: 'linear-gradient(rgba(0,51,102,0.6), rgba(0,51,102,0.6)), url("/src/assets/images/slider-03.jpg")',
+                            backgroundImage: `linear-gradient(rgba(0,51,102,0.6), rgba(0,51,102,0.6)), url("${sliderImg3}")`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             display: 'flex',
