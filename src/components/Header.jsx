@@ -5,6 +5,7 @@ import { Box, Typography, Button, IconButton } from '@mui/material';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import logo from '../assets/images/logofo3.png';
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -59,7 +60,7 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         <Box component="img"
-                            src="/src/assets/images/logofo3.png"
+                            src={logo}
                             alt="SkyTop Legal Translation"
                             sx={{ height: scrolled ? 50 : 65, transition: 'height 0.3s ease' }}
                         />
