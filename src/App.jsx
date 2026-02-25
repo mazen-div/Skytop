@@ -5,6 +5,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import theme from './theme/theme';
 import Layout from './components/Layout';
 import Loader from './components/Loader';
+import ScrollToTop from './components/ScrollToTop';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
@@ -19,6 +20,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
+        <ScrollToTop />
         <Suspense fallback={<Loader />}>
           <Layout>
             <Routes>
