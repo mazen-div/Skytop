@@ -26,9 +26,9 @@ const Home = () => {
     return (
         <Box sx={{ position: 'relative', overflow: 'hidden' }}>
             <SEO
-                title="Certified Legal Translation in Dubai & UAE | ترجمة قانونية معتمدة"
-                description="SkyTop Legal Translation provides certified translation services from the Ministry of Justice. 100+ languages. ترجمة معتمدة من وزارة العدل في دبي والإمارات."
-                keywords="ترجمة قانونية, ترجمة معتمدة دبي, مكتب ترجمة دبي, legal translation dubai, moj translator"
+                title="Certified Legal Translation in Dubai & UAE"
+                description="SkyTop Legal Translation Dubai provides certified and professional translation services licensed by the Ministry of Justice. 100+ languages. Fast turnaround."
+                keywords="legal translation dubai, certified translation uae, legal translator dubai, skytop translation, ترجمة قانونية دبي"
                 canonical="/"
             />
             {/* Hero Section */}
